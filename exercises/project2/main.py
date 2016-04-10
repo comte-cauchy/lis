@@ -45,7 +45,7 @@ testx = np.array(testx)
 
 ### Config section
 doOutput = True
-import k_NN_CV as selectedMethod
+import rbf_kernel as selectedMethod
 
 ### run learning
 print("Begin learning section with method", selectedMethod.toString(),"...")
