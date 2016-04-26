@@ -1,4 +1,3 @@
-import csv
 import datetime
 import numpy as np
 import pandas as pd
@@ -43,7 +42,9 @@ test = pd.read_hdf(fileName, "test")
 
 trainx = train.as_matrix()[:,1:]
 trainy = train.as_matrix()[:,0]
+
 testx = test.as_matrix()
+testid = list(test.index)
 ######################################
 #Learning
 ######################################
