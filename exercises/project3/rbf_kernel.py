@@ -26,7 +26,7 @@ def predict(trainx,trainy,testx):
             for gam in np.logspace(-np.log10(nTrain)-1,0,9):
                 print('Up next: degree =',deg,'c =',c, 'gamma=',gam)
                 clf = sksvm.SVC(C=c,gamma=gam,kernel=ker,max_iter = mi)
-                scores = skcv.cross_val_score(clf, transx,trainy,cv = 10)
+                scores = skcv.cross_val_score(clf, transx,trainy,cv = 10, n_jobs=-1)
                 print('...Score was',np.mean(scores),'+/-',np.std(scores))
                 if(np.mean(scores)>best_score):
                     best_score = np.mean(scores)
