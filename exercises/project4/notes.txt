@@ -1,0 +1,71 @@
+output_201605251341_rbf_kernel.csv: Best CV result: degree = 1 c = 5.6234132519 gamma =  0.240281141413 score = 0.937778736557
+
+
+Up next: degree = 1 c = 1.33352143216 gamma= 0.148550801717
+...Score was 0.939221180777 +/- 0.00234261204383i
+
+Up next: degree = 1 c = 1.0 gamma= 0.148550801717
+...Score was 0.938110069443 +/- 0.00154136131198
+
+Reading training data...
+Reading test data...
+Begin learning section with method rbf_kernel ...
+Up next: degree = 1 c = 10.0 gamma= 0.0316227766017
+...Score was 0.931888509222 +/- 0.00201873722738
+Up next: degree = 1 c = 10.0 gamma= 0.0421696503429
+...Score was 0.934222066778 +/- 0.00103907601029
+Up next: degree = 1 c = 10.0 gamma= 0.056234132519
+...Score was 0.936000068333 +/- 0.000250073910604
+Up next: degree = 1 c = 10.0 gamma= 0.0749894209332
+...Score was 0.938334069667 +/- 0.00114566388188
+Up next: degree = 1 c = 10.0 gamma= 0.1
+...Score was 0.939445181223 +/- 0.00161146612289
+Up next: degree = 1 c = 10.0 gamma= 0.133352143216
+...Score was 0.940889070445 +/- 0.00268040301763
+Up next: degree = 1 c = 10.0 gamma= 0.177827941004
+...Score was 0.940333293111 +/- 0.00094412354328
+Up next: degree = 1 c = 10.0 gamma= 0.237137370566
+...Score was 0.938112070112 +/- 0.00129720458846
+Up next: degree = 1 c = 10.0 gamma= 0.316227766017
+...Score was 0.932334288334 +/- 0.00119327892016
+Up next: degree = 1 c = 100.0 gamma= 0.0316227766017
+...Score was 0.92922317589 +/- 0.00215222968087
+Up next: degree = 1 c = 100.0 gamma= 0.0421696503429
+...Score was 0.932667733779 +/- 0.00229488438898
+Up next: degree = 1 c = 100.0 gamma= 0.056234132519
+...Score was 0.934778734557 +/- 0.00129474015737
+Up next: degree = 1 c = 100.0 gamma= 0.0749894209332
+...Score was 0.937334068779 +/- 0.00148289677196
+Up next: degree = 1 c = 100.0 gamma= 0.1
+...Score was 0.939556292334 +/- 0.00174387607963
+Up next: degree = 1 c = 100.0 gamma= 0.133352143216
+...Score was 0.940889070445 +/- 0.00268040301763
+Up next: degree = 1 c = 100.0 gamma= 0.177827941004
+...Score was 0.940333293111 +/- 0.00094412354328
+Up next: degree = 1 c = 100.0 gamma= 0.237137370566
+...Score was 0.938112070112 +/- 0.00129720458846
+Up next: degree = 1 c = 100.0 gamma= 0.316227766017
+...Score was 0.932334288334 +/- 0.00119327892016
+Up next: degree = 1 c = 1000.0 gamma= 0.0316227766017
+...Score was 0.92922317589 +/- 0.00215222968087
+Up next: degree = 1 c = 1000.0 gamma= 0.0421696503429
+...Score was 0.932667733779 +/- 0.00229488438898
+Up next: degree = 1 c = 1000.0 gamma= 0.056234132519
+...Score was 0.934778734557 +/- 0.00129474015737
+Up next: degree = 1 c = 1000.0 gamma= 0.0749894209332
+...Score was 0.937334068779 +/- 0.00148289677196
+Up next: degree = 1 c = 1000.0 gamma= 0.1
+...Score was 0.939556292334 +/- 0.00174387607963
+Up next: degree = 1 c = 1000.0 gamma= 0.133352143216
+...Score was 0.940889070445 +/- 0.00268040301763
+Up next: degree = 1 c = 1000.0 gamma= 0.177827941004
+...Score was 0.940333293111 +/- 0.00094412354328
+Up next: degree = 1 c = 1000.0 gamma= 0.237137370566
+...Score was 0.938112070112 +/- 0.00129720458846
+Up next: degree = 1 c = 1000.0 gamma= 0.316227766017
+...Score was 0.932334288334 +/- 0.00119327892016
+Best CV result: degree = 1 c = 10.0 gamma =  0.133352143216 score = 0.940889070445
+End of learning section...
+Writing Result to  output_201605251449_rbf_kernel.csv ...
+Done.
+

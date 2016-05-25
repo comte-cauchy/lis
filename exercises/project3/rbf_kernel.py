@@ -24,8 +24,8 @@ def predict(trainx,trainy,testx):
     for deg in range(1,2):
         polynomial_features = skpre.PolynomialFeatures(deg)
         transx = polynomial_features.fit_transform(trainx) 
-        for c in [10**0.375]:#np.logspace(0,.5,9):#np.logspace(-1,1,9):
-            for gam in [10**(-0.375)]:#np.logspace(-1,0,9):#np.logspace(-np.log10(nTrain)-1,0,9):
+        for c in np.logspace(-1,1,9):
+            for gam in np.logspace(-np.log10(nTrain)-1,0,9):
                 print('Up next: degree =',deg,'c =',c, 'gamma=',gam)
                 clf = sksvm.SVC(C=c,gamma=gam,kernel=ker,max_iter = mi)
                 scores = skcv.cross_val_score(clf, transx,trainy,cv = 3, n_jobs=-1)
